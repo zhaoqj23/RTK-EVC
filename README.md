@@ -6,9 +6,12 @@ The library was developed based on  **[RTKLIB](https://github.com/tomojitakasu/R
 1) Ubuntu 20.04 with the newest compiler is recommended.
 2) Eigen3
 3) Ceres Solver
-Eigen 3.3.7 and Ceres 2.1.0 have been tested and work properly.
+
+Eigen 3.3.7 and Ceres 2.1.0 have been tested and work properly. The dataset path and config path need to be modified in ```src/global/global.cpp```. The trace log path need to be modified in ```src/main.cpp```.
 ### Clone the repository
 ```git clone https://github.com/zhaoqj23/RTK-EVC.git```
+### Download the dataset
+The dataset of RTK-EVC can be obtained via **[Onedrive](https://1drv.ms/f/c/f185ecb4d7c54710/EmEiek9-Cz1PmxUmrju4Xy0B2WJMHYBJSbt1KmWuKx3Ndg?e=hn8mwY)**. The experiment was carried out in Beijing, China, around Tsinghua University and Zhongguancun, with multiple GNSS-challenged scenarios. IMU-ISA-100C and Inertial Explorer were used to get the ground truth.
 ### Build the library
 ```
 cd ~/RTK-EVC
@@ -19,5 +22,5 @@ make -j8
 ### Run demo
 ```
 cd ~/RTK-EVC
-./bin/RTK_EVC
+./bin/RTK-EVC
 ```
