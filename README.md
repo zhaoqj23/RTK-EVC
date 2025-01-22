@@ -2,7 +2,7 @@
 We open-source the source code and experiment dataset of a novel Real-time Kinematic positioning architecture with Enhanced Velocity Constraints (RTK-EVC) via Factor Graph Optimization in GNSS-challenged Environments. The related paper has been submitted to IEEE for possible publication. If you use the contents of this repository in your work, please cite the preprint of our paper as follows:
 ```
 @article{zhao2025rtk,
-  author = {Zhao, Qijia and Yan, Sudan and Liu, Gang and Zhang, Rong and Lu, Shaolin and Lou, Jianan},
+  author = {Zhao, Qijia and Yan, Sudan and Liu, Gang and Zhang, Rong and Lü, Shaolin and Lou, Jianan},
   title = {{RTK}-{EVC} : {Factor} {Graph} {Optimization} {Based} {Real}-time {Kinematic} {Positioning} with {Enhanced} {Velocity} {Constraints} in {GNSS}-chanllenged {Environments}},
   journal = {TechRxiv},
   year = {2025},
