@@ -1,5 +1,15 @@
 # RTK-EVC: Real-Time Kinematic Positioning with Enhanced Velocity Constraints via Factor Graph Optimization in GNSS-challenged Environments
-We open-source the source code and experiment dataset of a novel Real-time Kinematic positioning architecture with Enhanced Velocity Constraints (RTK-EVC) via Factor Graph Optimization in GNSS-challenged Environments.
+We open-source the source code and experiment dataset of a novel Real-time Kinematic positioning architecture with Enhanced Velocity Constraints (RTK-EVC) via Factor Graph Optimization in GNSS-challenged Environments. The related paper has been submitted to IEEE for possible publication. If you use the contents of this repository in your work, please cite the preprint of our paper as follows:
+```
+@article{zhao2025rtk,
+  author = {Zhao, Qijia and Yan, Sudan and Liu, Gang and Zhang, Rong and Lu, Shaolin and Lou, Jianan},
+  title = {{RTK}-{EVC} : {Factor} {Graph} {Optimization} {Based} {Real}-time {Kinematic} {Positioning} with {Enhanced} {Velocity} {Constraints} in {GNSS}-chanllenged {Environments}},
+  journal = {TechRxiv},
+  year = {2025},
+  month = jan,
+  doi = {10.36227/techrxiv.173747652.25780044/v1}
+}
+```
 ## How to Use This Library
 The library was developed based on  **[RTKLIB](https://github.com/tomojitakasu/RTKLIB)**  2.4.3 b34 and tested in Ubuntu 20.04. The results may be different for different OS. If any problem was found by you, please propose an issue or report it to zhaoqj23@mails.tsinghua.edu.cn.
 ### Requirements
